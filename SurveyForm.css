@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background-image: linear-gradient(
+    115deg,
+    rgba(58, 58, 158, 0.8),
+    rgba(136, 136, 206, 0.7)),url("./bg-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  font-family:'Poppins', sans-serif;
+}
+
+.titles {
+  text-align: center;
+  padding: 40px 0 ;
+  color: #fff;
+  
+}
+
+#title {
+  margin: -5px;
+}
+
+#description {
+  font-style: italic;
+  padding: 10px 120px 0px 120px;
+  font-size: 18px;
+  margin-bottom: -10px;
+}
+
+form {
+  background-color: rgba(27, 27, 50, 0.8);
+  width: 500px;
+  margin: auto;
+  border-radius: 3px;
+  padding: 45px 50px;
+  color: #fff;
+  
+}
+
+.survey-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.survey-form input {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  font-family: poppins;
+  font-size: 15px;
+  
+}
+
+.select-current-role #dropdown, .favorite-feature #dropdown {
+  width: 100%;
+  padding: 9px;
+  border: none;
+  border-radius: 5px;
+  font-family: poppins;
+  font-size: 15px;
+  margin: 10px 0 25px 0;
+}
+
+.recommendation {
+  margin-bottom: 30px;
+}
+
+.options {
+  margin-top: 7px;
+  margin-bottom: 10px;
+}
+
+.improvements-flex {
+  display: flex;
+  align-items: center;
+
+}
+
+.improvements-disclaimer {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.improvements-checklist {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+}
+.checkbox-elements input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.suggestion-box p {
+  margin: 10px 0;
+  
+}
+
+.suggestion-box textarea {
+  width: 100%;
+  height: 15vh;
+  font-family: poppins;
+  font-size: 15px;
+  padding: 5px 0px 0 0px;
+}
+
+.submit-button{
+  width: 100%;
+  margin: 20px 0;
+}
+.submit-button input {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 12px;
+  background-color:#36B065;
+  color: #fff;
+  font-size: 15px;
+  font-family: poppins;
+  border: none;
+  border-radius: 2px;
+}
